@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoElement</title>
+    <style>
+        @charset "UTF-8";
+
+        /*  Seletores Personalizados  
+
+            #   = id
+            .   = class
+            :   = pseudoclass
+            ::  = pseudoelement
+            >   = children/filho        
+        */
+
+
+        body{
+            background-color: rgba(119, 172, 119, 0.541);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: black;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        a::after{
+            content: "<";
+        }
+
+        a::before{
+            content: ">";
+        }
+
+        a:active{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Se liga nos links</h1>
+
+    <p><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank">Site dessa aula</a></p>
+    <p><a href="https://www.youtube.com/watch?v=69-WfrVBli8&ab_channel=Markzuel" target="_blank">Vídeo Aula de um site</a></p>
+    <p><a href="https://www.youtube.com/watch?v=gqrLT6bfLwY&ab_channel=CrisTech" target="_blank">Outro Vídeo Aula de um site</a></p>
+
+
+</body>
+</html>

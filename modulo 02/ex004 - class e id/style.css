@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: #B9ADF5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+h1#principal{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    background-color: #292636;
+    color: #B9ADF5;
+}
+
+.subtitulo{
+    background-color: #595375;
+    color: white;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+span{
+    color: #292636;
+    font-weight: bold;
+}
