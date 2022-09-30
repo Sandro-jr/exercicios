@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    max-width: 98.96873vw;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+header > h1{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+p > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main{
+    background-color: white;
+}
+
+main p{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.fundo1{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 80vh;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.fundo1 > p{
+    background-color: rgba(128, 128, 128, 0.164);
+    padding: 20px;
+    max-width: 450px;
+    font-size: 2em;
+}
